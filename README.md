@@ -19,7 +19,4 @@ In the transform stage, we will process the data using Pandas.
 
 ## C. Load
 At this stage, the processed data is stored in another data storage system, such as a PostgreSQL database.
-1. Create a PostgreSQL database based on the processed CSV data. Match the columns and data types with the data.
-2. If normalization is required, perform the normalization.
-3. Import the CSV data into the PostgreSQL database.
-4. The load stage should be executed in a .sql file and run in pgAdmin.
+1. Dump scrapped data to postgreSQL
